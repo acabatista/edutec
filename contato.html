@@ -3,7 +3,7 @@
  <head>
    <style>
       body{
-      background-image: url(fundo-azul.avif);
+      background-image: url(bolinhas.webp);
       background-repeat: no-repeat;
       background-size: cover;
     }
@@ -20,20 +20,24 @@
  </head>
   <body>
    <p> Se tiver alguma duvidaredirecionaremos aos nossos atendentes </p>
- <strong> Preencha este formulário Formulário </strong><br>
- <p> Escreva seu nome Completo </p>
- <label for="name " Nome: </label>
+ <strong> Preencha este Formulário </strong><br>
+ <p> Escreva seu nome Completo: </p>
+ <label for="name " Name:="text" </label>
  <input type="nome" id = nome name="nome" required>
  <br>
  <p> E-mail</p>
- <label for="email " E-mail: </label>
+ <label for="email" name:="nome E-mail" </label>
     <input type="email" id="email" name="email" required>
     <br><br>
-    <p> Senha</p>
- <label for=" senha " senha: </label>
-    <input type="password"id ="senha"name="senha" required>
+   <!--<p> Senha</p>
+     <label for=" senha " senha: </label>
+    <input type="password"id ="senha"name="senha" required>-->
     <br><br>
-    <label for="mensagem">Mensagem:</label><br>
+    <label for="mensagem">CPF:</label><br>
+    <input type="text" name="cpf"
+			pattern="\d{3}\.\d{3}\.\d{3}-\d{2}
+		<input type="text" name="cpf"><br><br>
+
     <textarea id="mensagem" name="mensagem" rows="4" cols="50"></textarea>
     <br><br>
     <input type="submit" value="Enviar">
